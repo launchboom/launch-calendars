@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LaunchBoom//VIP launch//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:darklight-vip-launch-20261110@launchboom.com
+DTSTAMP:20261102T000000Z
+DTSTART:20261110T150000Z
+DTEND:20261110T160000Z
+SUMMARY:Darklight Collection: VIP booking opens
+DESCRIPTION:VIP booking opens Tue Nov 10 at 7:00 AM PT. Your private VIP li
+ nk arrives by email at 7:00 AM\, so keep an eye on your inbox.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Darklight VIP booking is open now. Check your inbox for your VI
+ P link.
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Darklight VIP booking opens tomorrow at 7 AM PT
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
